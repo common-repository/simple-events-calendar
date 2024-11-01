@@ -1,0 +1,46 @@
+/* CSS file for the admin panel of the Simple Events Calendar plugin */
+.expired, .nolabel {filter:alpha(opacity=40); opacity:0.4;} 
+.expired .nolabel {filter:alpha(opacity=100); opacity:1;} 
+
+h1 .version {font-weight: 200;}
+
+a.pluginhelp {text-decoration:none; color:#464646;}
+
+#message {clear: both;}
+.se-nav-tab {display: none;}
+.se-nav-tab.se-nav-tab-active {display: block;}
+h3, h4 {clear:both;}
+h4.SE_settings {text-align:right; width:630px; margin-bottom:0; color:#21759B; cursor:pointer;}
+.donate {width:170px; margin: 0 auto;}
+.explanation {display:block; font-size:10px; }
+
+.se_entry_start, .se_entry_end, .se_entry_title, .se_entry_description, .se_entry_label, .se_entry_url, .se_entry_loc, .se_entry_loc_url { text-align:left;}
+.se_entry_description {vertical-align:top;}
+.labelnote {color:#999; font-size:11px;}
+
+
+a.eventlinks {font-weight:bold; text-decoration:none;}
+.eventlocation {font-weight: bold;}
+input.eventedit, input.eventdelete {cursor:pointer;}
+.eventlabel {font-weight:bold; cursor:help;}
+.eventtitle {text-align:left; font: italic normal normal 20px Georgia, Times,serif;}
+.eventstart, .eventend {font-weight:bold;}
+
+#long_len {border:none; background:none; text-align:right;}
+
+#se_top_buttons {clear:both; border-bottom:1px solid #CCC; height:69px;}
+#se_top_buttons button {display:block; width:200px; height:70px; border:1px solid #CCC; border-bottom-color:#ccc; background:#f5f5f5; float:left; margin-right:10px; font-size:14px; cursor:pointer;}
+#se_top_buttons button.se-myevents {border-bottom-color:#f9f9f9; background:#f9f9f9;}
+
+
+.se-center {text-align: center;}
+.se-large {font-size: 130%; color: #999; margin: 2em 0;}
+.sans-serif {font-family: Garamond, Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;}
+.italic {font-style: italic;}
+.se-button, .se-border:focus {border: none; cursor: pointer; float: left; color:#999; outline:none;}
+.se-button:hover {color:#444;}
+.margin-bottom {margin-bottom: 5em}
+
+
+
+
